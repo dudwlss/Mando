@@ -17,7 +17,7 @@ int main(void) {
 	if (z < min) {
 		min = z;
   }
-	printf("가장 작은 정수는 %d입니다.", min);
+	printf("가장 작은 정수는 %d 입니다.", min);
 
 	return 0;
 }
