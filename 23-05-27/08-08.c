@@ -2,8 +2,8 @@
 #include <math.h>
 
 double sin_degree(double degree) {
-    double radian = degree * M_PI / 180;  // 각도를 라디안으로 변환
-    return sin(radian);  // 사인 함수 계산 및 반환
+    double radian = degree * M_PI / 180;  
+    return sin(radian); 
 }
 
 int main() {
