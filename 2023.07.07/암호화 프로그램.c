@@ -6,7 +6,7 @@ int main(void) {
 	char cipher[50];
 	int shift = 3;
 	
-	printf("¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À: ");
+	printf("ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤: ");
 	gets_s(cipher, 50);
 	encrypt(cipher, shift);
 	return 0;
@@ -22,7 +22,7 @@ void encrypt(char cipher[], int shift) {
 		}
 		i++;
 	}
-	printf("¾ÏÈ£ÇÏµÈ ¹®ÀÚ¿­: %s \n", cipher);
+	printf("ì•”í˜¸í•˜ëœ ë¬¸ìì—´: %s \n", cipher);
 }
 
 
